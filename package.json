@@ -1,0 +1,54 @@
+{
+    "name": "react-spots",
+    "version": "1.0.0",
+    "description": "Load spots from MOTC and rendering on the webpage with React Framework",
+    "main": "src/index.jsx",
+    "scripts": {
+        "build": "webpack --mode production --env production",
+        "watch": "webpack -w",
+        "start": "webpack serve",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/duckhanson/Dcard-Intern-HW.git"
+    },
+    "author": "duckhanson",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/duckhanson/Dcard-Intern-HW/issues"
+    },
+    "homepage": "https://github.com/duckhanson/Dcard-Intern-HW#readme",
+    "devDependencies": {
+        "@babel/core": "^7.13.15",
+        "@babel/plugin-proposal-class-properties": "^7.13.0",
+        "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
+        "@babel/preset-env": "^7.13.15",
+        "@babel/preset-react": "^7.13.13",
+        "babel": "^6.23.0",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^5.2.1",
+        "html-webpack-plugin": "^5.3.1",
+        "prettier": "2.2.1",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.33.2",
+        "webpack-cli": "^4.6.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "dependencies": {
+        "@types/react-transition-group": "^4.4.1",
+        "axios": "^0.21.1",
+        "babel-polyfill": "^6.26.0",
+        "bootstrap": "^4.6.0",
+        "jquery": "^3.6.0",
+        "moment": "^2.29.1",
+        "popper.js": "^1.16.1",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-infinite-scroll-component": "^6.0.0",
+        "react-router-dom": "^5.2.0",
+        "reactstrap": "^8.9.0",
+        "uuid": "^8.3.2"
+    }
+}
