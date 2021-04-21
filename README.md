@@ -23,3 +23,5 @@
 2. 在navigator中設計出下拉的清單city，並使用Router使url可以隨table呈現區分成不同url。
 3. 在table (SpotTable)中使用api/motc-spot做request，並使用InfiniteScroll 製造出重複request的現象。
 
+
+![image](./src/image/Screenshot.png)
