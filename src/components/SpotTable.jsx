@@ -40,13 +40,7 @@ export default class SpotTable extends React.Component {
                     dataLength={this.state.spots.length}
                     next={this.getSpots}
                     hasMore={this.state.hasMore}
-                    // loader={<h4>Loading...</h4>}
                     height={800}
-                    // endMessage={
-                    //     <p style={{ textAlign: "center" }}>
-                    //         <b>Yay! You have seen it all</b>
-                    //     </p>
-                    // }
                 >
                     <Table striped>
                         <thead>
