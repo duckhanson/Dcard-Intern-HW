@@ -40,13 +40,13 @@ export default class SpotTable extends React.Component {
                     dataLength={this.state.spots.length}
                     next={this.getSpots}
                     hasMore={this.state.hasMore}
-                    loader={<h4>Loading...</h4>}
-                    height={600}
-                    endMessage={
-                        <p style={{ textAlign: "center" }}>
-                            <b>Yay! You have seen it all</b>
-                        </p>
-                    }
+                    // loader={<h4>Loading...</h4>}
+                    height={800}
+                    // endMessage={
+                    //     <p style={{ textAlign: "center" }}>
+                    //         <b>Yay! You have seen it all</b>
+                    //     </p>
+                    // }
                 >
                     <Table striped>
                         <thead>
@@ -64,8 +64,7 @@ export default class SpotTable extends React.Component {
     }
 
     getSpots() {
-        console.log(this.state.skip);
-        // if (this.state.hasMore === false) return;
+        if (this.state.hasMore === false) return;
         this.setState(
             (prevState, props) => ({
                 skip: prevState.skip + 30,
